@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">家居设定</string>
+    
+    <string name="input_room_width">房间宽度</string>
+    <string name="input_room_height">房间长度</string>
+    <string name="input_teatable_width">茶几宽度</string>
+    <string name="input_teatable_height">茶几长度</string>
+    <string name="input_footstool_width">脚凳宽度</string>
+    <string name="input_footstool_height">脚凳长度</string>
+    
+    <string name="generate">华丽丽滴生成吧！</string>
+    
+    <string name="input_error">输入错误</string>
+    
+</resources>

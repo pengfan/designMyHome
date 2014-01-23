@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="20dp">
+
+    <EditText 
+        android:id="@+id/roomWidth"
+        style="@style/edit_style"
+        android:hint="@string/input_room_width"/>
+    
+    <EditText 
+        android:id="@+id/roomHeight"
+        style="@style/edit_style"
+        android:hint="@string/input_room_height"/>
+    
+    <EditText 
+        android:id="@+id/teatableWidth"
+        style="@style/edit_style"
+        android:hint="@string/input_teatable_width"/>
+    
+    <EditText 
+        android:id="@+id/teatableHeight"
+        style="@style/edit_style"
+        android:hint="@string/input_teatable_height"/>
+    
+    <EditText 
+        android:id="@+id/footstoolWidth"
+        style="@style/edit_style"
+        android:hint="@string/input_footstool_width"/>
+    
+    <EditText 
+        android:id="@+id/footstoolHeight"
+        style="@style/edit_style"
+        android:hint="@string/input_footstool_height"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/generate"
+        android:onClick="generate"/>
+
+</LinearLayout>
